@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------- Header -------------------------------*/
+header {
+    display: flex;
+    flex-direction: column;
+    min-height: 960px;
+}
+
+/* -------------------- ht --------------------*/
+
+.ht {
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+height: 60px;
+z-index: 1;
+
+}
+
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20%;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+.actu, .parcours, .sessions {
+    text-decoration: none;
+    color: white;
+}
+
+.divlogin {
+    margin-right: 1%;
+    margin-top: 1%;
+}
+.login {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+}
+
+
+
+/* -------------------- hb --------------------*/
+
+.hb {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
+    
+}
+
+.hbphoto {
+    width: 100%;
+    max-height: 100%;
+    margin-bottom: 200px;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    margin-top: -30%;
+    z-index: 2;
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.divslogan {
+    
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: -15%;
+    z-index: 3;
+    text-align: center;
+}
+
+.slogan {
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+/* ------------------------------- Corps -------------------------------*/
+
